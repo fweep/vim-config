@@ -1,6 +1,6 @@
 " Configuration shared between Vim and Neovim.
-execute 'source ' . stdpath('config') . '/shared/plugins.vim'
-execute 'source ' . stdpath('config') . '/shared/options.vim'
+let g:vim_config_path = stdpath('config')
+execute 'source ' . g:vim_config_path . '/shared/init.vim'
 
 " Disable shada for mounted directories that may not be present (causes :q to take forever).
 " https://github.com/neovim/neovim/issues/12896
