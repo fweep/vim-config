@@ -1,6 +1,8 @@
 " Configure plugins using junegunn/vim-plug.  Requires g:plugged_directory to be set.
 call plug#begin(g:plugged_directory)
 
+Plug 'fweep/vim-tabber'
+
 Plug 'altercation/vim-colors-solarized'
 
 Plug 'tpope/vim-abolish'
