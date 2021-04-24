@@ -40,6 +40,9 @@ set virtualedit=block
 " Show line numbers.
 set number numberwidth=4
 
+" Reduce the number of hit-enter prompts from status messages and completion notices from deoplete.
+set shortmess=aTIFc
+
 " Flash cursor to matching brace in insert mode.
 set showmatch matchtime=0
 
