@@ -20,4 +20,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'jeetsukumaran/vim-buffergator'
 let g:buffergator_suppress_keymaps = 1
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+let g:airline_powerline_fonts = 1
+
 call plug#end()
