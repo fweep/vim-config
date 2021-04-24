@@ -1,4 +1,5 @@
-" Options shared between Vim and Neovim.
+" Configuration shared between Vim and Neovim.
+execute 'source ' . stdpath('config') . '/shared/plugins.vim'
 execute 'source ' . stdpath('config') . '/shared/options.vim'
 
 " Disable shada for mounted directories that may not be present (causes :q to take forever).
