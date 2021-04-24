@@ -1,3 +1,8 @@
+if has('unix')
+  let g:loaded_python_provider = 0 " disable python2
+  let g:python3_host_prog = $HOME . '/.virtualenvs/neovim3/bin/python'
+endif
+
 " Configuration shared between Vim and Neovim.
 let g:vim_config_path = stdpath('config')
 execute 'source ' . g:vim_config_path . '/shared/init.vim'
