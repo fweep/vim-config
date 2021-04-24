@@ -11,4 +11,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 
+Plug 'mileszs/ack.vim'
+
 call plug#end()
