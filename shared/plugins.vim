@@ -13,4 +13,6 @@ Plug 'tpope/vim-vinegar'
 
 Plug 'mileszs/ack.vim'
 
+Plug 'kien/ctrlp.vim'
+
 call plug#end()
