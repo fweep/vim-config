@@ -27,4 +27,6 @@ let g:airline_powerline_fonts = 1
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
