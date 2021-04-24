@@ -17,4 +17,7 @@ Plug 'mileszs/ack.vim'
 
 Plug 'kien/ctrlp.vim'
 
+Plug 'jeetsukumaran/vim-buffergator'
+let g:buffergator_suppress_keymaps = 1
+
 call plug#end()
