@@ -2,7 +2,7 @@
 let mapleader = ','
 
 " Toggle search highlighting off more easily.
-nnoremap <silent> <space> :nohlsearch<CR>
+nnoremap <silent> <leader>h :nohlsearch<CR>
 
 " Make Y behave like C and D.
 nnoremap Y y$

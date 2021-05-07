@@ -27,6 +27,7 @@ let g:airline_powerline_fonts = 1
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
+Plug 'Vimjas/vim-python-pep8-indent'
 
 call plug#end()

@@ -1,3 +1,12 @@
+" Yank to system clipboard.
+if has("unix") && !has("osx")
+  " FIXME check hostname?  unnamedplus only for schonfeld somehow.  maybe look for ~/.vimrc-local
+  " set clipboard=unnamedplus
+  set clipboard=unnamed
+else
+  set clipboard=unnamed
+end
+
 " Honor modeline settings in files.
 set modeline
 
