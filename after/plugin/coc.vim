@@ -1,10 +1,11 @@
+" Automatically install these CoC extensions if not already installed.
 let g:coc_global_extensions = [
       \'coc-json',
       \'coc-pyright',
       \'coc-tsserver',
       \]
 
-" Use tab for trigger completion with characters ahead and navigate.
+" Use <Tab> to trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
 inoremap <silent><expr> <TAB>
@@ -13,12 +14,17 @@ inoremap <silent><expr> <TAB>
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
+" Auto-import by hitting <CR> immediately after <Tab> completion.  Without
+" this, you have to select a completion from the menu and hit enter while the
+" PUM is visible.
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Use <c-space> to trigger completion.
+" Use <C-Space> to trigger completion.
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
 else
