@@ -1,2 +1,5 @@
-" Disable comment leader auto-insertion except on wordwrap.
-set formatoptions-=ro
+" Standard indentation.
+setlocal tabstop=2 softtabstop=2 shiftwidth=2 textwidth=99 expandtab
+
+" Stop inserting comment leaders with o/O.
+setlocal formatoptions-=o
