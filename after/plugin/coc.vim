@@ -3,6 +3,8 @@ let g:coc_global_extensions = [
       \'coc-json',
       \'coc-pyright',
       \'coc-tsserver',
+      \'coc-eslint',
+      \'coc-prettier',
       \]
 
 " Use <Tab> to trigger completion with characters ahead and navigate.

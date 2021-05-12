@@ -25,6 +25,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 let g:airline_powerline_fonts = 1
 
+Plug 'pangloss/vim-javascript'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'peitalin/vim-jsx-typescript'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Plug 'jiangmiao/auto-pairs'
