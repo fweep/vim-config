@@ -35,4 +35,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'jiangmiao/auto-pairs'
 Plug 'Vimjas/vim-python-pep8-indent'
 
+Plug 'hashivim/vim-terraform'
+
 call plug#end()
