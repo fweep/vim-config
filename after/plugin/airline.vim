@@ -26,4 +26,4 @@ let g:airline_mode_map = {
 let g:airline_section_y = ''
 
 " Disable percentage/line/col numbers.
-let g:airline_section_z = ''
+" let g:airline_section_z = ''
